@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/stats-base-dists-poisson",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Poisson distribution.",
   "license": "Apache-2.0",
   "author": {
@@ -15,6 +15,7 @@
   ],
   "main": "./lib",
   "directories": {
+    "doc": "./docs",
     "example": "./examples",
     "lib": "./lib",
     "test": "./test"
