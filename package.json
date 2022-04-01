@@ -1,0 +1,36 @@
+{
+  "name": "@stdlib/stats-base-dists-poisson",
+  "version": "0.0.0",
+  "description": "Poisson distribution.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./mod.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/stats-base-dists-poisson.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdmath",
+    "standard",
+    "library",
+    "std",
+    "lib",
+    "statistics",
+    "stats",
+    "probability",
+    "distribution",
+    "dist",
+    "poisson",
+    "univariate",
+    "discrete"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
