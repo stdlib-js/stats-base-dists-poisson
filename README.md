@@ -53,7 +53,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.poisson;
+})();
 })();
 </script>
 ```
@@ -145,9 +147,11 @@ y = dist.pmf( 2.3 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-poisson@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 console.log( objectKeys( poisson ) );
 
+})();
 })();
 </script>
 </body>
@@ -239,31 +243,31 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/stats/base/dists/poisson/ctor]: https://github.com/stdlib-js/stats-base-dists-poisson-ctor/tree/umd
+[@stdlib/stats/base/dists/poisson/ctor]: https://github.com/stdlib-js/stats-base-dists-poisson-ctor/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/poisson/kurtosis]: https://github.com/stdlib-js/stats-base-dists-poisson-kurtosis/tree/umd
+[@stdlib/stats/base/dists/poisson/kurtosis]: https://github.com/stdlib-js/stats-base-dists-poisson-kurtosis/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/poisson/mean]: https://github.com/stdlib-js/stats-base-dists-poisson-mean/tree/umd
+[@stdlib/stats/base/dists/poisson/mean]: https://github.com/stdlib-js/stats-base-dists-poisson-mean/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/poisson/median]: https://github.com/stdlib-js/stats-base-dists-poisson-median/tree/umd
+[@stdlib/stats/base/dists/poisson/median]: https://github.com/stdlib-js/stats-base-dists-poisson-median/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/poisson/mode]: https://github.com/stdlib-js/stats-base-dists-poisson-mode/tree/umd
+[@stdlib/stats/base/dists/poisson/mode]: https://github.com/stdlib-js/stats-base-dists-poisson-mode/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/poisson/skewness]: https://github.com/stdlib-js/stats-base-dists-poisson-skewness/tree/umd
+[@stdlib/stats/base/dists/poisson/skewness]: https://github.com/stdlib-js/stats-base-dists-poisson-skewness/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/poisson/stdev]: https://github.com/stdlib-js/stats-base-dists-poisson-stdev/tree/umd
+[@stdlib/stats/base/dists/poisson/stdev]: https://github.com/stdlib-js/stats-base-dists-poisson-stdev/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/poisson/variance]: https://github.com/stdlib-js/stats-base-dists-poisson-variance/tree/umd
+[@stdlib/stats/base/dists/poisson/variance]: https://github.com/stdlib-js/stats-base-dists-poisson-variance/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/poisson/cdf]: https://github.com/stdlib-js/stats-base-dists-poisson-cdf/tree/umd
+[@stdlib/stats/base/dists/poisson/cdf]: https://github.com/stdlib-js/stats-base-dists-poisson-cdf/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/poisson/logpmf]: https://github.com/stdlib-js/stats-base-dists-poisson-logpmf/tree/umd
+[@stdlib/stats/base/dists/poisson/logpmf]: https://github.com/stdlib-js/stats-base-dists-poisson-logpmf/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/poisson/mgf]: https://github.com/stdlib-js/stats-base-dists-poisson-mgf/tree/umd
+[@stdlib/stats/base/dists/poisson/mgf]: https://github.com/stdlib-js/stats-base-dists-poisson-mgf/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/poisson/pmf]: https://github.com/stdlib-js/stats-base-dists-poisson-pmf/tree/umd
+[@stdlib/stats/base/dists/poisson/pmf]: https://github.com/stdlib-js/stats-base-dists-poisson-pmf/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/poisson/quantile]: https://github.com/stdlib-js/stats-base-dists-poisson-quantile/tree/umd
+[@stdlib/stats/base/dists/poisson/quantile]: https://github.com/stdlib-js/stats-base-dists-poisson-quantile/tree/umd/tree/umd
 
 <!-- </toc-links> -->
 
