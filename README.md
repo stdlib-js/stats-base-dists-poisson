@@ -81,6 +81,7 @@ The namespace contains the following functions for calculating distribution prop
 
 <div class="namespace-toc">
 
+-   <span class="signature">[`entropy( lambda )`][@stdlib/stats/base/dists/poisson/entropy]</span><span class="delimiter">: </span><span class="description">Poisson distribution entropy.</span>
 -   <span class="signature">[`kurtosis( lambda )`][@stdlib/stats/base/dists/poisson/kurtosis]</span><span class="delimiter">: </span><span class="description">Poisson distribution excess kurtosis.</span>
 -   <span class="signature">[`mean( lambda )`][@stdlib/stats/base/dists/poisson/mean]</span><span class="delimiter">: </span><span class="description">Poisson distribution expected value.</span>
 -   <span class="signature">[`median( lambda )`][@stdlib/stats/base/dists/poisson/median]</span><span class="delimiter">: </span><span class="description">Poisson distribution median.</span>
@@ -222,6 +223,8 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 <!-- <toc-links> -->
 
 [@stdlib/stats/base/dists/poisson/ctor]: https://github.com/stdlib-js/stats-base-dists-poisson-ctor
+
+[@stdlib/stats/base/dists/poisson/entropy]: https://github.com/stdlib-js/stats-base-dists-poisson-entropy
 
 [@stdlib/stats/base/dists/poisson/kurtosis]: https://github.com/stdlib-js/stats-base-dists-poisson-kurtosis
 
