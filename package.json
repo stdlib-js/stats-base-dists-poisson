@@ -38,6 +38,7 @@
   "dependencies": {
     "@stdlib/stats-base-dists-poisson-cdf": "^0.0.x",
     "@stdlib/stats-base-dists-poisson-ctor": "^0.0.x",
+    "@stdlib/stats-base-dists-poisson-entropy": "^0.0.x",
     "@stdlib/stats-base-dists-poisson-kurtosis": "^0.0.x",
     "@stdlib/stats-base-dists-poisson-logpmf": "^0.0.x",
     "@stdlib/stats-base-dists-poisson-mean": "^0.0.x",
@@ -79,7 +80,6 @@
     "@stdlib/stats-base-dists-degenerate-logpmf": "^0.0.x",
     "@stdlib/stats-base-dists-degenerate-pmf": "^0.0.x",
     "@stdlib/stats-base-dists-degenerate-quantile": "^0.0.x",
-    "@stdlib/stats-base-dists-poisson-entropy": "^0.0.x",
     "@stdlib/string-format": "^0.0.x",
     "@stdlib/utils-constant-function": "^0.0.x",
     "@stdlib/utils-define-nonenumerable-read-only-accessor": "^0.0.x",
