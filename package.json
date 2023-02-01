@@ -3,7 +3,30 @@
   "version": "0.0.7",
   "description": "Poisson distribution.",
   "license": "Apache-2.0",
-  "main": "./index.js",
+  "author": {
+    "name": "The Stdlib Authors",
+    "url": "https://github.com/stdlib-js/stdlib/graphs/contributors"
+  },
+  "contributors": [
+    {
+      "name": "The Stdlib Authors",
+      "url": "https://github.com/stdlib-js/stdlib/graphs/contributors"
+    }
+  ],
+  "main": "./lib",
+  "directories": {
+    "doc": "./docs",
+    "example": "./examples",
+    "lib": "./lib",
+    "test": "./test"
+  },
+  "types": "./docs/types",
+  "scripts": {
+    "test": "make test",
+    "test-cov": "make test-cov",
+    "examples": "make examples",
+    "benchmark": "make benchmark"
+  },
   "homepage": "https://stdlib.io",
   "repository": {
     "type": "git",
@@ -12,6 +35,76 @@
   "bugs": {
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
+  "dependencies": {
+    "@stdlib/stats-base-dists-poisson-cdf": "^0.0.x",
+    "@stdlib/stats-base-dists-poisson-ctor": "^0.0.x",
+    "@stdlib/stats-base-dists-poisson-entropy": "^0.0.x",
+    "@stdlib/stats-base-dists-poisson-kurtosis": "^0.0.x",
+    "@stdlib/stats-base-dists-poisson-logpmf": "^0.0.x",
+    "@stdlib/stats-base-dists-poisson-mean": "^0.0.x",
+    "@stdlib/stats-base-dists-poisson-median": "^0.0.x",
+    "@stdlib/stats-base-dists-poisson-mgf": "^0.0.x",
+    "@stdlib/stats-base-dists-poisson-mode": "^0.0.x",
+    "@stdlib/stats-base-dists-poisson-pmf": "^0.0.x",
+    "@stdlib/stats-base-dists-poisson-quantile": "^0.0.x",
+    "@stdlib/stats-base-dists-poisson-skewness": "^0.0.x",
+    "@stdlib/stats-base-dists-poisson-stdev": "^0.0.x",
+    "@stdlib/stats-base-dists-poisson-variance": "^0.0.x",
+    "@stdlib/utils-define-read-only-property": "^0.0.x"
+  },
+  "devDependencies": {
+    "@stdlib/assert-has-own-property": "^0.0.x",
+    "@stdlib/assert-is-function": "^0.0.x",
+    "@stdlib/assert-is-positive-number": "^0.0.x",
+    "@stdlib/bench": "^0.0.x",
+    "@stdlib/constants-float64-eps": "^0.0.x",
+    "@stdlib/constants-float64-ninf": "^0.0.x",
+    "@stdlib/constants-float64-pinf": "^0.0.x",
+    "@stdlib/constants-float64-sqrt-two": "^0.0.x",
+    "@stdlib/math-base-assert-is-nan": "^0.0.x",
+    "@stdlib/math-base-assert-is-nonnegative-integer": "^0.0.x",
+    "@stdlib/math-base-special-abs": "^0.0.x",
+    "@stdlib/math-base-special-ceil": "^0.0.x",
+    "@stdlib/math-base-special-erfcinv": "^0.0.x",
+    "@stdlib/math-base-special-exp": "^0.0.x",
+    "@stdlib/math-base-special-factorial": "^0.0.x",
+    "@stdlib/math-base-special-factorialln": "^0.0.x",
+    "@stdlib/math-base-special-floor": "^0.0.x",
+    "@stdlib/math-base-special-gammainc": "^0.0.x",
+    "@stdlib/math-base-special-ln": "^0.0.x",
+    "@stdlib/math-base-special-round": "^0.0.x",
+    "@stdlib/math-base-special-sqrt": "^0.0.x",
+    "@stdlib/math-base-tools-sum-series": "^0.0.x",
+    "@stdlib/random-base-randu": "^0.0.x",
+    "@stdlib/stats-base-dists-degenerate-cdf": "^0.0.x",
+    "@stdlib/stats-base-dists-degenerate-logpmf": "^0.0.x",
+    "@stdlib/stats-base-dists-degenerate-pmf": "^0.0.x",
+    "@stdlib/stats-base-dists-degenerate-quantile": "^0.0.x",
+    "@stdlib/error-tools-fmtprodmsg": "^0.0.x",
+    "@stdlib/utils-constant-function": "^0.0.x",
+    "@stdlib/utils-define-nonenumerable-read-only-accessor": "^0.0.x",
+    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.0.x",
+    "@stdlib/utils-define-property": "^0.0.x",
+    "@stdlib/utils-keys": "^0.0.x",
+    "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
+    "istanbul": "^0.4.1",
+    "tap-min": "git+https://github.com/Planeshifter/tap-min.git"
+  },
+  "engines": {
+    "node": ">=0.10.0",
+    "npm": ">2.7.0"
+  },
+  "os": [
+    "aix",
+    "darwin",
+    "freebsd",
+    "linux",
+    "macos",
+    "openbsd",
+    "sunos",
+    "win32",
+    "windows"
+  ],
   "keywords": [
     "stdlib",
     "stdmath",
