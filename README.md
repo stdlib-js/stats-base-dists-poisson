@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import poisson from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-poisson@esm/index.mjs';
+import poisson from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-poisson@v0.2.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { Poisson, cdf, entropy, kurtosis, logpmf, mean, median, mgf, mode, pmf, quantile, skewness, stdev, variance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-poisson@esm/index.mjs';
+import { Poisson, cdf, entropy, kurtosis, logpmf, mean, median, mgf, mode, pmf, quantile, skewness, stdev, variance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-poisson@v0.2.0-esm/index.mjs';
 ```
 
 #### poisson
@@ -138,7 +138,7 @@ y = dist.pmf( 2.3 );
 <script type="module">
 
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs';
-import poisson from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-poisson@esm/index.mjs';
+import poisson from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-poisson@v0.2.0-esm/index.mjs';
 
 console.log( objectKeys( poisson ) );
 
