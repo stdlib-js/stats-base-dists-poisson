@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import poisson from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-poisson@deno/mod.js';
+import poisson from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-poisson@v0.3.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { Poisson, cdf, entropy, kurtosis, logpmf, mean, median, mgf, mode, pmf, quantile, skewness, stdev, variance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-poisson@deno/mod.js';
+import { Poisson, cdf, entropy, kurtosis, logpmf, mean, median, mgf, mode, pmf, quantile, skewness, stdev, variance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-poisson@v0.3.0-deno/mod.js';
 ```
 
 #### poisson
@@ -132,7 +132,7 @@ y = dist.pmf( 2.3 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import poisson from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-poisson@deno/mod.js';
+import poisson from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-poisson@v0.3.0-deno/mod.js';
 
 /*
 * Let's take a customer service center example: average rate of customer inquiries is 3 per hour.
