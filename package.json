@@ -55,6 +55,7 @@
   "devDependencies": {
     "@stdlib/array-float64": "^0.2.3",
     "@stdlib/assert-has-own-property": "^0.2.3",
+    "@stdlib/assert-is-almost-same-value": "^0.1.1",
     "@stdlib/assert-is-function": "^0.2.3",
     "@stdlib/assert-is-positive-number": "^0.2.3",
     "@stdlib/console-log-each-map": "^0.1.1",

@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-15)
+## Unreleased (2026-08-02)
 
 <section class="features">
 
 ### Features
 
+-   [`88ed88f`](https://github.com/stdlib-js/stdlib/commit/88ed88ffa11b6cc1837e75f7fb9024a89ab3d94d) - add C implementation for `stats/base/dists/poisson/entropy` [(#10874)](https://github.com/stdlib-js/stdlib/pull/10874)
 -   [`f63b6ef`](https://github.com/stdlib-js/stdlib/commit/f63b6ef8ab403a18dfd58ae0884361c8d829d9f1) - add C implementation for `@stdlib/stats-base/dists/poisson/pmf` [(#10839)](https://github.com/stdlib-js/stdlib/pull/10839)
 
 </section>
@@ -20,9 +21,9 @@
 
 ### Closed Issues
 
-A total of 2 issues were closed in this release:
+A total of 3 issues were closed in this release:
 
-[#3793](https://github.com/stdlib-js/stdlib/issues/3793), [#10979](https://github.com/stdlib-js/stdlib/issues/10979)
+[#3786](https://github.com/stdlib-js/stdlib/issues/3786), [#3793](https://github.com/stdlib-js/stdlib/issues/3793), [#10979](https://github.com/stdlib-js/stdlib/issues/10979)
 
 </section>
 
@@ -34,6 +35,11 @@ A total of 2 issues were closed in this release:
 
 <details>
 
+-   [`112dcfc`](https://github.com/stdlib-js/stdlib/commit/112dcfcf5333be07ec3986193a011220762a0591) - **docs:** fix string interpolation and missing JSDoc annotations [(#13284)](https://github.com/stdlib-js/stdlib/pull/13284) _(by Philipp Burckhardt)_
+-   [`88ed88f`](https://github.com/stdlib-js/stdlib/commit/88ed88ffa11b6cc1837e75f7fb9024a89ab3d94d) - **feat:** add C implementation for `stats/base/dists/poisson/entropy` [(#10874)](https://github.com/stdlib-js/stdlib/pull/10874) _(by Kamal Singh Rautela, Neeraj Pathak, Philipp Burckhardt)_
+-   [`ca49ceb`](https://github.com/stdlib-js/stdlib/commit/ca49ceb1e17979e0ecb77bc50dedd14b7515b46f) - **refactor:** rename internal variable [(#13167)](https://github.com/stdlib-js/stdlib/pull/13167) _(by Philipp Burckhardt)_
+-   [`dbe4c82`](https://github.com/stdlib-js/stdlib/commit/dbe4c820ea98330253b4054a5bc9b04b2293415b) - **docs:** propagate fixes to sibling packages [(#12677)](https://github.com/stdlib-js/stdlib/pull/12677) _(by Philipp Burckhardt, Athan Reines)_
+-   [`5eb4a95`](https://github.com/stdlib-js/stdlib/commit/5eb4a95e4377c83f2acc5108ffc155a92cb0071f) - **chore:** update keywords [(#12816)](https://github.com/stdlib-js/stdlib/pull/12816) _(by Philipp Burckhardt)_
 -   [`f59b324`](https://github.com/stdlib-js/stdlib/commit/f59b324c3c652580e17c4c4baae8168faab8af8c) - **docs:** fix typos and copy-paste errors in `stats` TypeScript declarations [(#12482)](https://github.com/stdlib-js/stdlib/pull/12482) _(by Philipp Burckhardt, Athan Reines)_
 -   [`187e141`](https://github.com/stdlib-js/stdlib/commit/187e141098635f0f2edf0f6f1289e06473ae7fcd) - **chore:** add missing `npm` engine constraint to `stats/base/dists/*/ctor` [(#11686)](https://github.com/stdlib-js/stdlib/pull/11686) _(by Philipp Burckhardt)_
 -   [`9430db6`](https://github.com/stdlib-js/stdlib/commit/9430db645b6b1d36afb35e2fe3275d9ce4c384b8) - **refactor:** reuse variance implementation for stdev in `stats/base/dists` [(#11370)](https://github.com/stdlib-js/stdlib/pull/11370) _(by Om-A-osc, Athan Reines)_
@@ -54,10 +60,12 @@ A total of 2 issues were closed in this release:
 
 ### Contributors
 
-A total of 7 people contributed to this release. Thank you to the following contributors:
+A total of 9 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Kamal Singh Rautela
 -   Karan Anand
+-   Neeraj Pathak
 -   Om-A-osc
 -   Philipp Burckhardt
 -   Siddhartha Mondal
