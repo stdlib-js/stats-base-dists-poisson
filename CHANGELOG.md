@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-02)
+## Unreleased (2026-09-21)
 
 <section class="features">
 
@@ -35,6 +35,8 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`d3eaad3`](https://github.com/stdlib-js/stdlib/commit/d3eaad35f633c731ce8112190d74bb2a7577e1e8) - **chore:** clean-up [(#15039)](https://github.com/stdlib-js/stdlib/pull/15039) _(by Philipp Burckhardt, Athan Reines)_
+-   [`5fa117b`](https://github.com/stdlib-js/stdlib/commit/5fa117b8cc1e56698fa64c341f2ab1875cdb2f76) - **test:** migrate `stats/base/dists/poisson/mgf` to ULP-based assertions [(#14499)](https://github.com/stdlib-js/stdlib/pull/14499) _(by Athan Reines)_
 -   [`112dcfc`](https://github.com/stdlib-js/stdlib/commit/112dcfcf5333be07ec3986193a011220762a0591) - **docs:** fix string interpolation and missing JSDoc annotations [(#13284)](https://github.com/stdlib-js/stdlib/pull/13284) _(by Philipp Burckhardt)_
 -   [`88ed88f`](https://github.com/stdlib-js/stdlib/commit/88ed88ffa11b6cc1837e75f7fb9024a89ab3d94d) - **feat:** add C implementation for `stats/base/dists/poisson/entropy` [(#10874)](https://github.com/stdlib-js/stdlib/pull/10874) _(by Kamal Singh Rautela, Neeraj Pathak, Philipp Burckhardt)_
 -   [`ca49ceb`](https://github.com/stdlib-js/stdlib/commit/ca49ceb1e17979e0ecb77bc50dedd14b7515b46f) - **refactor:** rename internal variable [(#13167)](https://github.com/stdlib-js/stdlib/pull/13167) _(by Philipp Burckhardt)_
