@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-21)
+## Unreleased (2026-11-08)
 
 <section class="features">
 
 ### Features
 
+-   [`e2dd9ec`](https://github.com/stdlib-js/stdlib/commit/e2dd9ec9ae82431ef4d3e9e355e2e5ac4fd91687) - add C implementation for `stats/base/dists/poisson/quantile` [(#14731)](https://github.com/stdlib-js/stdlib/pull/14731)
 -   [`88ed88f`](https://github.com/stdlib-js/stdlib/commit/88ed88ffa11b6cc1837e75f7fb9024a89ab3d94d) - add C implementation for `stats/base/dists/poisson/entropy` [(#10874)](https://github.com/stdlib-js/stdlib/pull/10874)
 -   [`f63b6ef`](https://github.com/stdlib-js/stdlib/commit/f63b6ef8ab403a18dfd58ae0884361c8d829d9f1) - add C implementation for `@stdlib/stats-base/dists/poisson/pmf` [(#10839)](https://github.com/stdlib-js/stdlib/pull/10839)
 
@@ -21,9 +22,9 @@
 
 ### Closed Issues
 
-A total of 3 issues were closed in this release:
+A total of 4 issues were closed in this release:
 
-[#3786](https://github.com/stdlib-js/stdlib/issues/3786), [#3793](https://github.com/stdlib-js/stdlib/issues/3793), [#10979](https://github.com/stdlib-js/stdlib/issues/10979)
+[#3786](https://github.com/stdlib-js/stdlib/issues/3786), [#3793](https://github.com/stdlib-js/stdlib/issues/3793), [#3794](https://github.com/stdlib-js/stdlib/issues/3794), [#10979](https://github.com/stdlib-js/stdlib/issues/10979)
 
 </section>
 
@@ -35,6 +36,13 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`7349dff`](https://github.com/stdlib-js/stdlib/commit/7349dffeddd90289879f06e70acc1be8544af75b) - **style:** add missing whitespace [(#16507)](https://github.com/stdlib-js/stdlib/pull/16507) _(by Philipp Burckhardt)_
+-   [`8484af7`](https://github.com/stdlib-js/stdlib/commit/8484af71004df2ecfb138ac5fa793419e1af75be) - **docs:** add missing section separator [(#15980)](https://github.com/stdlib-js/stdlib/pull/15980) _(by Philipp Burckhardt)_
+-   [`e2dd9ec`](https://github.com/stdlib-js/stdlib/commit/e2dd9ec9ae82431ef4d3e9e355e2e5ac4fd91687) - **feat:** add C implementation for `stats/base/dists/poisson/quantile` [(#14731)](https://github.com/stdlib-js/stdlib/pull/14731) _(by Philipp Burckhardt, Karan Anand)_
+-   [`13f790e`](https://github.com/stdlib-js/stdlib/commit/13f790eddcd73150f45e562f2eed6eeaaec72ba1) - **test:** migrate `stats/base/dists/poisson/logpmf` to ULP-based assertions [(#15468)](https://github.com/stdlib-js/stdlib/pull/15468) _(by Ujjwal Verma)_
+-   [`4ff1e1d`](https://github.com/stdlib-js/stdlib/commit/4ff1e1d558876533389a1617c8e956df2cd495dc) - **test:** migrate `stats/base/dists/poisson/pmf` to ULP-based assertions [(#15467)](https://github.com/stdlib-js/stdlib/pull/15467) _(by Ujjwal Verma)_
+-   [`3e0c944`](https://github.com/stdlib-js/stdlib/commit/3e0c944bc75edb84e95e5aaa8fd9c14b7ebd9e29) - **test:** migrate `stats/base/dists/poisson/cdf` to ULP-based assertions [(#15466)](https://github.com/stdlib-js/stdlib/pull/15466) _(by Ujjwal Verma)_
+-   [`4d92e85`](https://github.com/stdlib-js/stdlib/commit/4d92e8566df46b062b35948f13dfd178657c2e8a) - **test:** migrate `stats/base/dists/poisson/mean` to ULP-based assertions [(#15465)](https://github.com/stdlib-js/stdlib/pull/15465) _(by Ujjwal Verma)_
 -   [`d3eaad3`](https://github.com/stdlib-js/stdlib/commit/d3eaad35f633c731ce8112190d74bb2a7577e1e8) - **chore:** clean-up [(#15039)](https://github.com/stdlib-js/stdlib/pull/15039) _(by Philipp Burckhardt, Athan Reines)_
 -   [`5fa117b`](https://github.com/stdlib-js/stdlib/commit/5fa117b8cc1e56698fa64c341f2ab1875cdb2f76) - **test:** migrate `stats/base/dists/poisson/mgf` to ULP-based assertions [(#14499)](https://github.com/stdlib-js/stdlib/pull/14499) _(by Athan Reines)_
 -   [`112dcfc`](https://github.com/stdlib-js/stdlib/commit/112dcfcf5333be07ec3986193a011220762a0591) - **docs:** fix string interpolation and missing JSDoc annotations [(#13284)](https://github.com/stdlib-js/stdlib/pull/13284) _(by Philipp Burckhardt)_
@@ -62,7 +70,7 @@ A total of 3 issues were closed in this release:
 
 ### Contributors
 
-A total of 9 people contributed to this release. Thank you to the following contributors:
+A total of 10 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Kamal Singh Rautela
@@ -71,6 +79,7 @@ A total of 9 people contributed to this release. Thank you to the following cont
 -   Om-A-osc
 -   Philipp Burckhardt
 -   Siddhartha Mondal
+-   Ujjwal Verma
 -   Vipeen Kumar
 -   anee3
 
